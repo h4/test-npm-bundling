@@ -1,0 +1,31 @@
+{
+  "name": "production",
+  "version": "0.0.1",
+  "description": "Simple Production Build",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "truck": "../"
+  },
+  "author": "Mikhail Baranov <baranov@charge.auto>",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "babel-preset-react": "^7.0.0-beta.3",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.0",
+    "postcss-preset-env": "^6.2.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "react-dev-utils": "^6.0.5"
+  }
+}

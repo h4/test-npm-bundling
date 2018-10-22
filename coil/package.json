@@ -1,0 +1,18 @@
+{
+  "name": "coil",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^16.5.2"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.5",
+    "react": "^16.5.2"
+  },
+  "author": "Mikhail Baranov <baranov@charge.auto>",
+  "license": "SEE LICENSE IN LICENSE"
+}
